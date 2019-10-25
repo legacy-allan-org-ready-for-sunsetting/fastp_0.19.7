@@ -17,6 +17,9 @@ doc: |
   Run fastp on a pair of fastq files
 
 inputs:
+  output_prefix:
+    type: [string, null]
+
   html:
     type: string
     inputBinding:
